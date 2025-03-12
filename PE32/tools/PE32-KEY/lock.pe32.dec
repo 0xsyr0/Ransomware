@@ -1,0 +1,252 @@
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:07:33]
+[]
+NEW RUN ID: 1C35935F8AC9791F
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:08:39]
+[1C35935F8AC9791F]
+Staring UltraFast Round
+ "D:\\"
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:08:39]
+[1C35935F8AC9791F]
+Staring UltraFast Round
+ "C:\\"
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:08:39]
+[1C35935F8AC9791F]
+"D:\\"
+Unknown Extentions: 
+
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:08:39]
+[1C35935F8AC9791F]
+UltraFast Compeleted
+"D:\\"
+File Count: 0
+Drive Size: 0GB
+Fast File Count: 0
+Time: 00:00:00
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:08:39]
+[1C35935F8AC9791F]
+Slow Compeleted
+"D:\\"
+File Count: 0
+Drive Size: 0GB
+Time: 00:00:00
+Total Time: 00:00:00
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:08:39]
+[1C35935F8AC9791F]
+Fast Compeleted
+"D:\\"
+File Count: 0
+Drive Size: 0GB
+Time: 00:00:00
+Total Time: 00:00:00
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:10:00]
+[1C35935F8AC9791F]
+UltraFast Compeleted
+"C:\\"
+File Count: 27347
+Drive Size: 1GB
+Fast File Count: 9431
+Time: 00:01:20
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:10:00]
+[1C35935F8AC9791F]
+"C:\\"
+Unknown Extentions: 
+avc: 5306 | 206MB
+body: 33 | 8MB
+trd: 1 | 4MB
+nz: 1 | 2MB
+i64: 1 | 2MB
+idb: 1 | 1MB
+klb: 16 | 1MB
+hem: 33 | 1MB
+smali: 19 | 1MB
+oep: 3 | 1MB
+dp64: 1 | 0MB
+rrmb: 2 | 0MB
+dp32: 1 | 0MB
+dntheme: 16 | 0MB
+ovl: 36 | 0MB
+osc: 4 | 0MB
+ndll: 3 | 0MB
+jpe: 6 | 0MB
+profile: 2 | 0MB
+dex: 6 | 0MB
+ml: 33 | 0MB
+vmm: 9 | 0MB
+doi: 7 | 0MB
+hrc: 24 | 0MB
+hrd: 68 | 0MB
+klz: 2 | 0MB
+aspr2: 45 | 0MB
+650: 6 | 0MB
+csc: 8 | 0MB
+a3x: 1 | 0MB
+aif: 2 | 0MB
+603: 4 | 0MB
+xxx: 1 | 0MB
+mhk: 4 | 0MB
+655: 2 | 0MB
+tok: 2 | 0MB
+vnd: 4 | 0MB
+t32: 1 | 0MB
+do1: 1 | 0MB
+1: 23 | 0MB
+fdl: 2 | 0MB
+nsi: 6 | 0MB
+vfx: 1 | 0MB
+do2: 1 | 0MB
+j: 16 | 0MB
+dsw: 37 | 0MB
+aspr: 13 | 0MB
+2: 17 | 0MB
+xcscheme: 4 | 0MB
+drc: 1 | 0MB
+dli: 1 | 0MB
+do0: 1 | 0MB
+apache: 1 | 0MB
+fsc: 6 | 0MB
+0: 143 | 0MB
+cff: 3 | 0MB
+exe_: 1 | 0MB
+gitignore: 10 | 0MB
+sa: 1 | 0MB
+411: 1 | 0MB
+ni: 1 | 0MB
+dll_bak: 1 | 0MB
+moon: 4 | 0MB
+whs: 6 | 0MB
+moz_log: 2 | 0MB
+idc: 1 | 0MB
+dev: 6 | 0MB
+120: 1 | 0MB
+dynamic: 1 | 0MB
+wew: 1 | 0MB
+bb: 1 | 0MB
+lde: 1 | 0MB
+xiph: 2 | 0MB
+rap: 1 | 0MB
+ke8: 7 | 0MB
+crd: 1 | 0MB
+mask: 2 | 0MB
+edt: 1 | 0MB
+pxd: 1 | 0MB
+kli: 2 | 0MB
+3: 8 | 0MB
+201: 1 | 0MB
+crk: 1 | 0MB
+wap: 2 | 0MB
+ss: 2 | 0MB
+dotsettings: 1 | 0MB
+bcv: 2 | 0MB
+1st: 1 | 0MB
+px: 1 | 0MB
+home: 4 | 0MB
+work: 4 | 0MB
+dd64: 1 | 0MB
+n!!: 1 | 0MB
+hcom: 1 | 0MB
+buildinfo: 1 | 0MB
+metadata-v2: 4 | 0MB
+jml: 2 | 0MB
+file: 7 | 0MB
+sndt: 1 | 0MB
+grn: 1 | 0MB
+gry: 1 | 0MB
+red: 1 | 0MB
+blu: 1 | 0MB
+flu: 1 | 0MB
+mag: 1 | 0MB
+yel: 1 | 0MB
+8svx: 1 | 0MB
+!!!: 1 | 0MB
+versions: 1 | 0MB
+modulemap: 1 | 0MB
+voc: 1 | 0MB
+dif: 2 | 0MB
+rsu: 1 | 0MB
+accepted: 1 | 0MB
+8: 4 | 0MB
+90: 2 | 0MB
+convention: 1 | 0MB
+cmdline: 1 | 0MB
+100-alpha: 2 | 0MB
+workspaces: 2 | 0MB
+13: 12 | 0MB
+validation: 1 | 0MB
+16: 1 | 0MB
+18: 1 | 0MB
+22: 3 | 0MB
+19: 1 | 0MB
+4: 6 | 0MB
+240404000: 1 | 0MB
+typedparts: 1 | 0MB
+46: 1 | 0MB
+2-dev: 1 | 0MB
+9: 10 | 0MB
+17: 1 | 0MB
+coreutility: 1 | 0MB
+jfc: 2 | 0MB
+intellisense: 1 | 0MB
+dataflow: 1 | 0MB
+10: 3 | 0MB
+47: 10 | 0MB
+27130: 6 | 0MB
+e_sqlite3: 2 | 0MB
+2221: 5 | 0MB
+230913002: 1 | 0MB
+7: 2 | 0MB
+39: 1 | 0MB
+230717008: 1 | 0MB
+diasymreader: 1 | 0MB
+231008000: 1 | 0MB
+21: 2 | 0MB
+231219000: 1 | 0MB
+15: 10 | 0MB
+jsa: 1 | 0MB
+6: 20 | 0MB
+csharp: 1 | 0MB
+runtime: 1 | 0MB
+35: 10 | 0MB
+59: 1 | 0MB
+14: 1 | 0MB
+24: 1 | 0MB
+frameworks: 1 | 0MB
+31: 1 | 0MB
+channels: 1 | 0MB
+composition: 2 | 0MB
+ger-: 1 | 0MB
+52: 1 | 0MB
+visualbasic: 1 | 0MB
+12: 1 | 0MB
+logic: 1 | 0MB
+51: 3 | 0MB
+elfie: 1 | 0MB
+71: 1 | 0MB
+gitkeep: 1 | 0MB
+access: 1 | 0MB
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:10:10]
+[1C35935F8AC9791F]
+Fast Compeleted
+"C:\\"
+File Count: 9420
+Drive Size: 1GB
+Time: 00:00:09
+Total Time: 00:01:30
+
+[PE32 v4.1.1] [Armin] [Tue, 18 Feb 2025 13:10:25]
+[1C35935F8AC9791F]
+Slow Compeleted
+"C:\\"
+File Count: 9415
+Drive Size: 1GB
+Time: 00:00:15
+Total Time: 00:01:46
+
