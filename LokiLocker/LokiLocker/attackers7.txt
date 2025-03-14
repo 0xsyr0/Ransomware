@@ -41,3 +41,7 @@ taylorbtcpay@tutamail.com
 Marcus
 rdprecovery@mail.ee
 rdprecovery1@my.com
+
+restorefile
+backuprestore@mail.ee
+restorelocki@my.com
