@@ -49,6 +49,7 @@ RANSOM_EXTS = [
     '.contac',
     '.Xp64',
     '.Louis',
+    '.Anubi',
 ]
 
 
