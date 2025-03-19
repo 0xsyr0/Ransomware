@@ -1,3 +1,27 @@
+// MIT License
+//
+// Copyright (c) 2025 Andrey Zhdanov (rivitna)
+// https://github.com/rivitna
+//
+// Permission is hereby granted, free of charge, to any person obtaining
+// a copy of this software and associated documentation files
+// (the "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to
+// the following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+// DEALINGS IN THE SOFTWARE.
+
 package main
 
 
@@ -124,7 +148,7 @@ func main() {
 
   // Save key data
   destFileName := fileName + ".dec"
-  err = writeDataToFile(destFileName, keyData)
+  err = os.WriteFile(destFileName, keyData, 0666)
   if err != nil {
     fmt.Printf("Error: Couldn't save key data to '%s'\n", destFileName)
     os.Exit(1)
@@ -171,18 +195,4 @@ func readFileData(filePath string, dataSize int) ([]byte, error) {
   bytesRead, err := f.Read(buf)
   if err != nil { return nil, err }
   return buf[:bytesRead], nil
-}
-
-
-// Write data to file
-func writeDataToFile(fileName string, data []byte) error {
-
-  f, err := os.Create(fileName)
-  if err != nil { return err }
-  defer f.Close()
-
-  _, err = f.Write(data)
-  if err != nil { return err }
-
-  return nil
 }
