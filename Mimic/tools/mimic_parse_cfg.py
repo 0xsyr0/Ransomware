@@ -29,7 +29,18 @@ import errno
 import struct
 
 
-DEFAULT_VER = '7.x'
+# Versions
+VERSIONS = {
+  0x63341DBC: '4.0',
+  0x635B6ED6: '4.2',
+  0x6389CFBD: '4.3',
+  0x63B83259: '5.0',
+  0x6467C6D6: '5.4',
+  0x65625801: '6.3',
+  0x66BF5FBD: '7.x',
+  0x66CD0DEE: '7.x',
+  0x66D2FC26: '7.x',
+}
 
 
 # Fields
@@ -186,6 +197,34 @@ CONFIG_RES_NAME = '1'
 CONFIG_RES_ID = 1033
 
 
+def get_pe_hdr_pos(file_data: bytes) -> int | None:
+    """Get PE header position"""
+
+    mz_sign, = struct.unpack_from('<H', file_data, 0)
+    if (mz_sign != 0x5A4D):
+        return None
+
+    nt_hdr_pos, = struct.unpack_from('<L', file_data, 0x3C)
+
+    pe_sign, = struct.unpack_from('<L', file_data, nt_hdr_pos)
+    if (pe_sign != 0x00004550):
+        return None
+
+    return nt_hdr_pos
+
+
+def get_pe_timestamp(file_data: bytes) -> int | None:
+    """Get PE header timestamp"""
+
+    # Get PE header position
+    nt_hdr_pos = get_pe_hdr_pos(file_data)
+    if nt_hdr_pos is None:
+        return None
+
+    timestamp, = struct.unpack_from('<L', file_data, nt_hdr_pos + 8)
+    return timestamp
+
+
 def find_res_entry(res_name, file_data: bytes, res_pos: int,
                    offset: int) -> int:
     """Find resource entry"""
@@ -221,22 +260,6 @@ def find_res_entry(res_name, file_data: bytes, res_pos: int,
                     return ofs
 
     return -1
-
-
-def get_pe_hdr_pos(file_data: bytes) -> int | None:
-    """Get PE header position"""
-
-    mz_sign, = struct.unpack_from('<H', file_data, 0)
-    if (mz_sign != 0x5A4D):
-        return None
-
-    nt_hdr_pos, = struct.unpack_from('<L', file_data, 0x3C)
-
-    pe_sign, = struct.unpack_from('<L', file_data, nt_hdr_pos)
-    if (pe_sign != 0x00004550):
-        return None
-
-    return nt_hdr_pos
 
 
 def extract_pe_res(file_data: bytes,
@@ -427,17 +450,27 @@ if not (2 <= len(sys.argv) <= 3):
     print('Usage:', os.path.basename(sys.argv[0]), 'filename [-v<VER>]')
     print()
     print('supported versions:', ', '.join(SETTINGS.keys()))
-    print('default version:', DEFAULT_VER)
     sys.exit(0)
 
 filename = sys.argv[1]
 
+# Read file data
+with io.open(filename, 'rb') as f:
+    file_data = f.read()
+
 # Version
-ver = DEFAULT_VER
+ver = None
 if len(sys.argv) == 3:
     ver_arg = sys.argv[2]
     if ver_arg.startswith('-v'):
         ver = ver_arg[len('-v'):]
+if not ver:
+    # Auto-detect version
+    pe_timestamp = get_pe_timestamp(file_data)
+    ver = VERSIONS.get(pe_timestamp)
+    if not ver:
+        print('Error: Unable to auto-detect version.')
+        sys.exit(1)
 
 settings = SETTINGS.get(ver)
 if settings is None:
@@ -445,9 +478,6 @@ if settings is None:
     sys.exit(1)
 
 print('version:', ver)
-
-with io.open(filename, 'rb') as f:
-    file_data = f.read()
 
 # Extract encrypted configuration data from resources
 cfg_data = extract_pe_res(file_data, CONFIG_RES_TYPE, CONFIG_RES_NAME,
