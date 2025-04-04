@@ -72,6 +72,7 @@ c:\program files\vmware\vmware view\server\bin\anydesk.exe
 c:\programdata\anydesk\anydesk.exe
 c:\users\<username>\downloads\anydesk.exe
 c:\windows\temp\anydesk\anydesk.exe
+C:\Windows\Temp\Anydesk.exe
 
 chisel
 svhost.exe
@@ -81,10 +82,12 @@ c:\users\<username>\downloads\chisel_1.9.1_windows_amd64.gz
 c:\temp\svhost.exe
 c:\users\<username>\desktop\svhost.exe
 c:\usr\svhost.exe
+C:\PerfLogs\sv_host.exe
 
 Localtonet
 c:\users\<username>\downloads\localtonet-win-64
 c:\users\<username>\downloads\localtonet-win-64\localtonet.exe
+C:\PerfLogs\localtonet.exe
 
 XenAllPasswordPro
 c:\recovery\xenallpasswordpro.exe
