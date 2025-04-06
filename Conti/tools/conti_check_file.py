@@ -35,6 +35,9 @@ MAX_RSA_KEY_SIZE = 512
 METADATA_SIZE = MAX_RSA_KEY_SIZE + 12 + 10
 
 
+HEADER_ENC_SIZE = 0x100000
+
+
 def check_encfile(filename: str) -> None:
     """Check encrypted file"""
 
