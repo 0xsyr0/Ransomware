@@ -75,6 +75,7 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
         f.seek(file_size)
         metadata = f.read(METADATA_SIZE)
 
+        # Check marker
         marker = metadata[X25519_KEY_SIZE:]
         if marker != ENC_MARKER:
             return False
