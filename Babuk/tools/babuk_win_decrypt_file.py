@@ -48,7 +48,7 @@ IV_SIZE = 32
 
 # Metadata
 METADATA_KEY_CRC_POS = X25519_KEY_SIZE
-METADATA_MARKER_POS = X25519_KEY_SIZE + 4
+METADATA_MARKER_POS = METADATA_KEY_CRC_POS + 4 + 4
 METADATA_SIZE = METADATA_MARKER_POS + len(ENC_MARKER)
 
 
@@ -61,6 +61,7 @@ MEDIUM_FILE_BLOCK_SIZE = 0x100000
 
 
 # CRC32
+CRC32_INITVAL = 0x676E6F64
 CRC32_POLY = 0x4C11DB7
 crc32_table = None
 
@@ -130,7 +131,7 @@ def decrypt_file(filename: str, priv_key_data: bytes) -> bool:
         # Check HC-128 key data CRC32
         key_data_crc, = struct.unpack_from('<L', metadata,
                                            METADATA_KEY_CRC_POS)
-        if key_data_crc == crc32(key_data):
+        if key_data_crc != crc32(key_data, CRC32_INITVAL):
             return False
 
         # Remove metadata
