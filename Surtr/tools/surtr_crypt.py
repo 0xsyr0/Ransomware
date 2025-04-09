@@ -92,7 +92,7 @@ def rsa_decrypt(enc_data: bytes, priv_key: RSA.RsaKey) -> bytes:
 
 
 def decrypt_session_key_data(enc_session_key_data: bytes,
-                             master_priv_key: RSA.RsaKey) -> bytes:
+                             master_priv_key: RSA.RsaKey) -> bytes | None:
     """Decrypt session key data"""
 
     rsa_key_size = master_priv_key.size_in_bytes()
