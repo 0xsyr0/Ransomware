@@ -106,7 +106,7 @@ BlackShadow
 .Jarjets, .Off, .Daniel, .Xray, .Tisak, .SNet, .Jack, .Sergey,
 .phoenix, .Hercul, .Dominik, .Elons, .Frank, .Key2030, .Arthur, .Thomas,
 .Bpant, .innok, .innoken, .RealBer, .Xp64, .contac, .Contacto, .DebX6,
-.Louis, .Anubi
+.Louis, .Anubi, .jackNik
 Black.Shadow2000@onionmail.org
 Black.Shadow2000@cyberfear.com
 Black.Store2000@onionmail.org
@@ -165,6 +165,8 @@ louisblanc@mailum.com
 louisblanc@firemail.de
 Anubis@mailum.com
 Anubis20@firemail.de
+nikson@cyberfear.com
+jackNiksey@firemail.de
 
 .uploaded (RA Group ?)
 http://pa32ymaeu62yo5th5mraikgw5fcvznnsiiwti42carjliarodltmqcqd.onion
