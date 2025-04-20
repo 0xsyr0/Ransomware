@@ -97,11 +97,11 @@ if len(sys.argv) != 2:
 filename = sys.argv[1]
 
 # Read footer key
-with io.open('./footer_key.bin', 'rb') as f:
+with io.open('./footer_key2.bin', 'rb') as f:
     footer_key = f.read(pe32_crypt.AES_KEY_SIZE)
 
 # Read footer nonce
-with io.open('./footer_nonce.bin', 'rb') as f:
+with io.open('./footer_nonce2.bin', 'rb') as f:
     footer_nonce = f.read(pe32_crypt.AES_GCM_NONCE_SIZE)
 
 # Get encrypted file info
