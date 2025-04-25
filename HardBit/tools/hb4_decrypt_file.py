@@ -36,17 +36,15 @@ AES_BLOCK_SIZE = 16
 KEY_SIZE = 32
 IV_SIZE = AES_BLOCK_SIZE
 
-SALT = b'Ivan Medvedev'
-
 
 # Footer
 FOOTER_SIZE = 5 * 8
 
 
-def derive_encryption_key(password: bytes) -> bytes:
+def derive_encryption_key(password: bytes, salt: bytes) -> bytes:
     """Derive encryption key"""
 
-    return PBKDF2(password, SALT, KEY_SIZE, 1000)
+    return PBKDF2(password, salt, KEY_SIZE, 1000)
 
 
 # PKCS #5 padding
@@ -152,12 +150,16 @@ filename = sys.argv[1]
 with io.open('./password.txt', 'rb') as f:
     password = f.read()
 
+# Read salt
+with io.open('./salt2.bin', 'rb') as f:
+    salt = f.read()
+
 # Read IV
-with io.open('./iv.bin', 'rb') as f:
+with io.open('./iv2.bin', 'rb') as f:
     iv = f.read(IV_SIZE)
 
 # Derive encryption key
-key = derive_encryption_key(password)
+key = derive_encryption_key(password, salt)
 
 # Copy file
 new_filename = filename + '.dec'
