@@ -22,6 +22,7 @@ rule Conti
         $h3 = { ( 2D 5B 00 00 | DA FC 01 B8 ) ( 41 83 | 83 ) F? 04 7C ??
                 [12-24] 69 0? 95 E9 D1 5B ( 48 83 | 83 ) C2 04
                 ( 45 69 | 69 ) ?? 95 E9 D1 5B }
+        $h4 = { 41 B0 14 B2 25 [0-4] E8 [2] FF FF 85 C0 }
 
     condition:
         ((uint16(0) == 0x5A4D) and (uint32(uint32(0x3C)) == 0x00004550)) and
