@@ -151,11 +151,11 @@ with io.open('./password.txt', 'rb') as f:
     password = f.read()
 
 # Read salt
-with io.open('./salt2.bin', 'rb') as f:
+with io.open('./salt.bin', 'rb') as f:
     salt = f.read()
 
 # Read IV
-with io.open('./iv2.bin', 'rb') as f:
+with io.open('./iv.bin', 'rb') as f:
     iv = f.read(IV_SIZE)
 
 # Derive encryption key
