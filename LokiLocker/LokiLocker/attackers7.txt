@@ -1,3 +1,7 @@
+bitblack
+bitblack@onionmail.org
+bitblack@mailfence.com
+
 companyadvanc
 companyadvanc@msgsafe.io
 companyadvanc@onionmail.org
