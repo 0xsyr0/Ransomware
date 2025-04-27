@@ -1,6 +1,6 @@
 # MIT License
 #
-# Copyright (c) 2024 Andrey Zhdanov (rivitna)
+# Copyright (c) 2024-2025 Andrey Zhdanov (rivitna)
 # https://github.com/rivitna
 #
 # Permission is hereby granted, free of charge, to any person obtaining
@@ -47,7 +47,7 @@ MAC_TAG_SIZE = 16
 MIN_ENC_SESSION_KEY_DATA_SIZE = ENC_KEY_MARKER_SIZE + RSA_KEY_SIZE
 
 
-def rsa_decrypt(enc_data: bytes, priv_key_data: bytes) -> bytes:
+def rsa_decrypt(enc_data: bytes, priv_key_data: bytes) -> bytes | None:
     """RSA OAEP decrypt data"""
 
     key = RSA.import_key(priv_key_data)
@@ -59,7 +59,8 @@ def rsa_decrypt(enc_data: bytes, priv_key_data: bytes) -> bytes:
         return None
 
 
-def aes_gcm_decrypt(enc_data: bytes, key: bytes, nonce: bytes) -> bytes:
+def aes_gcm_decrypt(enc_data: bytes,
+                    key: bytes, nonce: bytes) -> bytes | None:
     """AES GCM decrypt data"""
 
     if len(enc_data) < MAC_TAG_SIZE:
@@ -77,7 +78,7 @@ def aes_gcm_decrypt(enc_data: bytes, key: bytes, nonce: bytes) -> bytes:
 
 
 def decrypt_session_key_data(enc_session_key_data: bytes,
-                             master_priv_key_data: bytes) -> bytes:
+                             master_priv_key_data: bytes) -> bytes | None:
     """Decrypt session key data"""
 
     if len(enc_session_key_data) < MIN_ENC_SESSION_KEY_DATA_SIZE:
