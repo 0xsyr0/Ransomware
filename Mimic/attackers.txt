@@ -352,3 +352,6 @@ Telegram: @Winsent0 (https://t.me/Winsent0)
 istanbul@msg.ws
 Telegram: @ISTANBULTEAM
 Jabber: istanbul@yax.im
+
+.dreed
+Telegram: @DecryptRu (https://t.me/DecryptRu)
