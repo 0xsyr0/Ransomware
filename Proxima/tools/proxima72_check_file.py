@@ -31,7 +31,7 @@ import struct
 # Check Proxima/BlackShadow (72) encrypted file
 # .Abram, .Adamto, .Anubi, .Arthur, .Bpant, .contac, .Contacto, .DebX6,
 # .Dominik, .Elons, .Frank, .Funder, .Hercul, .innok, .innoken, .jackNik,
-# .Key2030, .Louis, .RealBer, .SnowM, .Thomas, .Xp64
+# .Key2030, .Louis, .Lucas, .RealBer, .SnowM, .Thomas, .Xp64
 
 
 METADATA_PUBKEY_POS = 16
