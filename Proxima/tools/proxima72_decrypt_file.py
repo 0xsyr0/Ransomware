@@ -42,6 +42,7 @@ RANSOM_EXTS = [
     '.DebX6',
     '.Dominik',
     '.Elons',
+    '.Enzo',
     '.Frank',
     '.Funder',
     '.Hercul',
