@@ -362,3 +362,8 @@ tony@mailum.com
 .enkacrypt
 enkacrypt@onionmail.org
 enkacrypt@proton.me
+
+.PiskaPisulka
+istanbul@msg.ws
+Telegram: @ISTANBULTEAM
+Jabber: istanbul@yax.im
