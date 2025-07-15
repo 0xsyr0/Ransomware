@@ -1,5 +1,5 @@
 /*
-TitanImposter (GlobeImposter / NewBomani) ransomware
+TitanImposter (PolyVice) ransomware
 */
 
 
