@@ -13,10 +13,10 @@ rule TitanImposter
         score = 100
 
     strings:
-        $a1 = { 7C ?? 7F 07 3D 00 00 ?0 0? 76 0? [4-12] 7C ?? 7F 07
-                3D 00 00 40 06 76 }
-        $a2 = { 48 3D 00 00 50 00 0F 9F 85 [3] 00 48 3D 00 00 40 06
-                0F 9F 85 [3] 00 7E }
+        $a1 = { 48 C7 8? [2] 02 00 00 00 28 00 C7 8? [2] 02 00 02 00 00 00
+                48 [1-2] FF FF 4F 00 48 89 8? }
+        $a2 = { 00 00 50 00 0F 9F 8? [2] 02 00 48 [1-2] 00 00 40 06
+                0F 9F 8? [2] 02 00 }
         $a3 = "{{IDENTIFIER}}" ascii
         $a4 = "expand 32-byte kexpand 16-byte k" ascii
         $b1 = "EES401EP2" ascii
