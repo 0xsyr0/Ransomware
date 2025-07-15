@@ -17,7 +17,7 @@ rule TitanImposter
                 3D 00 00 40 06 76 }
         $a2 = { 48 3D 00 00 50 00 0F 9F 85 [3] 00 48 3D 00 00 40 06
                 0F 9F 85 [3] 00 7E }
-        $a3 = { 7B 7B 49 44 45 4E 54 49 ( 46 | 46 49) 45 52 7D 7D }
+        $a3 = "{{IDENTIFIER}}" ascii
         $a4 = "expand 32-byte kexpand 16-byte k" ascii
         $b1 = "EES401EP2" ascii
         $b2 = { 91 01 00 08 01 00 08 00 08 00 06 00 85 00 65 00 70 00 0B 00
