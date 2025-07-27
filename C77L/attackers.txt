@@ -47,3 +47,6 @@ EncryptRansomware
 
 RecoverOdata@onionmail.org
 RecoverOdata@proton.me
+
+pls0dec0me0caesar@atomicmail.io
+pls0dec0me0caesar@onionmail.org
