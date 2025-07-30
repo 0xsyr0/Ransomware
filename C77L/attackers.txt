@@ -56,3 +56,6 @@ itman01@firemail.de
 
 qxman@protonmail.ch
 cXOQBoVK@proton.me
+
+emmo.encrypt@onionmail.org
+dark.encrypt@onionmail.org
