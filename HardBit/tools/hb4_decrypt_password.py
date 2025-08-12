@@ -102,7 +102,7 @@ if len(sys.argv) != 2:
 
 filename = sys.argv[1]
 
-with io.open('./private.txt', 'rb') as f:
+with io.open('./rsa_privkey.txt', 'rb') as f:
     priv_key_blob = base64.b64decode(f.read())
 
 # Get RSA private key from BLOB
