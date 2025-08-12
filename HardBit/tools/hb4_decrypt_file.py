@@ -100,7 +100,7 @@ def decrypt_file(filename: str, key: bytes, iv: bytes) -> bool:
         orig_file_name = name_data.decode('UTF-16LE')
         print('original file name: \"%s\"' % orig_file_name)
 
-        #Decrypt block 1
+        # Decrypt block 1
         f.seek(0)
         enc_data = f.read(block1_size)
 
@@ -113,7 +113,7 @@ def decrypt_file(filename: str, key: bytes, iv: bytes) -> bool:
             # Restore original data
             f.write(additional_data[name_data_size:])
 
-        #Decrypt block 2
+        # Decrypt block 2
         block2_pos = block2_size + footer_size
         f.seek(-block2_pos, 2)
 
