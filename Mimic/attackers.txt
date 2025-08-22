@@ -372,4 +372,3 @@ enkacrypt@proton.me
 istanbul@msg.ws
 Telegram: @ISTANBULTEAM
 Jabber: istanbul@yax.im
-
