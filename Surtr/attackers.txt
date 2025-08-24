@@ -1,6 +1,9 @@
 DecryptMyData@mailfence.com
 Decrypter@msgsafe.io
 
+HelpMe@mailfence.com
+RecoverMe@msgsafe.io
+
 Dec_youfile1986@mailfence.com
 Telegram: @Ransome_Decrypters
 
