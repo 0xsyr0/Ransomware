@@ -26,6 +26,9 @@ UsdtFiles@onionmail.org
 filesupport@airmail.cc
 proton@onionmail.org
 
+decryptor@msgsafe.io
+deceryptor@waifu.club
+
 contact.encryptor@gmail.com
 contact.decryptor@gmail.com
 
