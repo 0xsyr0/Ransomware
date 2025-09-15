@@ -1,0 +1,25 @@
+|.........................|
+|.██████...██..██..█████..|
+|......██.███.███.██...██.|
+|..█████...██..██..██████.|
+|......██..██..██......██.|
+|.██████...██..██..█████..|
+|.........................|
+|
+|-[ All your data were encrypted. ]
+|
+|-If you try to decrypt them yourself, you will lose your data. To decrypt all systems, you need to contact us for guidance and a data recovery tool in the future. If you ignore our offer and the conversation does not take place, we will take extreme measures against your company and your employees, as a result of which you will lose access to all resources of your network and lose your reputation.
+|
+|-To contact us - register your mail here: https://account.proton.me/mail/signup?plan=free and write to us by email: [redacted]@proton.me
+|-We also have a backup method of communication in case you can’t handle mail, namely telegram: https://t.me/[redacted]
+|-Further negotiations regarding this situation will be conducted there.
+|
+|-Be sure to use a VPN, and do not attempt to write from other email addresses, as there is a high chance that the messages will not be delivered to either party.
+|
+|-You have 48 hours to contact us to establish negotiations and interaction, starting from the date of creation of this file.
+|-If you do not contact us within 2 days, we will consider this a refusal to cooperate, and we will publish over 1 TB of data of exfiltrated information from your servers.
+|-We also inform you that you, as a contractor, have undertaken to ensure the security of your clients whose networks you service. In case of refusal to cooperate, your clients will also be caught in the crossfire. And there is a very high chance that all this will end in litigation, as well as the intervention of the FSB and Roskomnadzor in this situation.
+|
+|-Warning:
+_ Do not delete, modify, or attempt to recover files by any means other than using our key and decryptor. This will damage your data, and we cannot guarantee its recovery.
+_ Do not try to make this public, as you will only harm yourself and your reputation.
