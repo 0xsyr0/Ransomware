@@ -75,6 +75,9 @@ Novamaker@Onionmail.com
 BackupDATA@tutamail.com
 backupdata@atomicmail.io
 
+SuppDecFile@gmail.com
+SuppDecFile@proton.me
+
 Decryptorkrypt@gmail.com
 Saveyourdata@tutamail.com
 
