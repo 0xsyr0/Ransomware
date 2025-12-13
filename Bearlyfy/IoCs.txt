@@ -1,3 +1,11 @@
+Имена файлов:
+svchos.exe
+winapp.exe
+intel2.exe
+zabbix.exe
+systemd
+
+
 SHA1
 
 LockBit 3 (Black)
