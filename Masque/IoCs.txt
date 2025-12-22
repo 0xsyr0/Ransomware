@@ -18,6 +18,7 @@ cd5624decb717b4d84f1c49d436827904f17995f
 75b5abd136fe6c59cb0876e79e59d05995f47e70
 6b31e5085982fd8217cf14f5030cfcd06e96abe5
 7d217e29dec27e08067eb2f424c27316cb5c48f6
+c35637c11fa4502842da5f29bd8a62a29f3651b3
 
 chisel
 1a0a85baf7d51254196f554c25c7e941ceadd39c
@@ -48,6 +49,7 @@ f156b6121d3136338bdca7b9f24ed8dd0b86006c74f992da02ea7f09e82a38ae
 d8cf5c215e6eb681491f44ba0672c4f957c9d9ac257fbb7051fd4a1b33febfce
 1a9c246f0dd85a668bc7216bad43af87d7cd8093f0bff33039d281d646b41d4c
 c545ee2d7db8e691338465d7a2a9199830db0ad04dee61da476ba64dd9c62035
+dd0d9af6bf64924fad5f46bac41842a1cc6c1ac15d0e110bef7a1248e0c9abfd
 
 chisel
 996e68f2fe1c8bb091f34e9bf39fd34d95c3e21508def1f54098a1874bfb825e
@@ -74,6 +76,7 @@ c:\windows\temp\aparmor_32.exe
 c:\users\<username>\desktop\bingo.exe
 host.exe
 conhost.exe
+ant_svp_32.exe
 
 AnyDesk
 c:\program files\vmware\vmware view\server\bin\anydesk.exe
