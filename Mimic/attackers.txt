@@ -415,3 +415,7 @@ cabasetra2030@onionmail.org
 .mimicpay2key
 mimicpay2key@proton.me
 mimicpay2key@onionmail.com
+
+.VER_TU
+data771@tuta.io
+data771@cyberfear.com
