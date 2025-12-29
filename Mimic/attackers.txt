@@ -419,3 +419,7 @@ mimicpay2key@onionmail.com
 .VER_TU
 data771@tuta.io
 data771@cyberfear.com
+
+.datakurtarmamerkez
+datakurtarmamerkezi@proton.me
+datashop2@proton.me
