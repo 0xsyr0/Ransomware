@@ -351,3 +351,6 @@ admindani@mailum.com
 
 purchase@mailum.com
 alphabet@firemail.eu
+
+data.recovery@onionmail.org
+revival.recovery@2mail.co
